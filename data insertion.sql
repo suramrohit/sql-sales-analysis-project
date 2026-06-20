@@ -1,0 +1,160 @@
+INSERT INTO customers
+VALUES
+(1,'Rohit','Hyderabad'),
+(2,'Ravi','Mumbai'),
+(3,'Ajay','Delhi'),
+(4,'Kiran','Bangalore'),
+(5,'Suresh','Chennai'),
+(6,'Vijay','Pune'),
+(7,'Arjun','Kolkata'),
+(8,'Nikhil','Hyderabad'),
+(9,'Mahesh','Mumbai'),
+(10,'Ramesh','Delhi'),
+(11,'Anil','Bangalore'),
+(12,'Prakash','Chennai'),
+(13,'Vinay','Pune'),
+(14,'Deepak','Kolkata'),
+(15,'Naresh','Hyderabad'),
+(16,'Santosh','Mumbai'),
+(17,'Harish','Delhi'),
+(18,'Lokesh','Bangalore'),
+(19,'Ganesh','Chennai'),
+(20,'Manoj','Pune'),
+(21,'Tarun','Kolkata'),
+(22,'Sandeep','Hyderabad'),
+(23,'Akash','Mumbai'),
+(24,'Varun','Delhi'),
+(25,'Naveen','Bangalore'),
+(26,'Rajesh','Chennai'),
+(27,'Teja','Pune'),
+(28,'Sai','Kolkata'),
+(29,'Karthik','Hyderabad'),
+(30,'Bhanu','Mumbai'),
+(31,'Yash','Delhi'),
+(32,'Abhishek','Bangalore'),
+(33,'Pawan','Chennai'),
+(34,'Krishna','Pune'),
+(35,'Rahul','Kolkata'),
+(36,'Surya','Hyderabad'),
+(37,'Ashok','Mumbai'),
+(38,'Chandu','Delhi'),
+(39,'Madhav','Bangalore'),
+(40,'Vamsi','Chennai');
+
+INSERT INTO customers
+VALUES
+(41,'Rohit','Pune'),
+(42,'Ravi','Hyderabad'),
+(43,'Ajay','Mumbai'),
+(44,'Kiran','Delhi'),
+(45,'Suresh','Bangalore'),
+(46,'Vijay','Chennai'),
+(47,'Arjun','Pune'),
+(48,'Nikhil','Kolkata'),
+(49,'Rohit','Mumbai'),
+(50,'Ravi','Delhi'),
+(51,'Mahesh','Hyderabad'),
+(52,'Karthik','Chennai'),
+(53,'Rahul','Bangalore'),
+(54,'Sai','Mumbai'),
+(55,'Vamsi','Hyderabad');
+ select * from customers
+
+INSERT INTO products
+VALUES
+(1,'Laptop','Electronics',50000),
+(2,'Mouse','Electronics',500),
+(3,'Keyboard','Electronics',1500),
+(4,'Monitor','Electronics',12000),
+(5,'Headphones','Electronics',2500),
+(6,'Smartphone','Electronics',30000),
+(7,'Tablet','Electronics',20000),
+(8,'Printer','Electronics',8000),
+(9,'Webcam','Electronics',1800),
+(10,'Speaker','Electronics',3500),
+(11,'Office Chair','Furniture',7000),
+(12,'Study Table','Furniture',9000),
+(13,'Bookshelf','Furniture',6000),
+(14,'Pen Drive','Accessories',700),
+(15,'External HDD','Accessories',4500),
+(16,'Backpack','Accessories',1200),
+(17,'Water Bottle','Accessories',400),
+(18,'Notebook','Stationery',100),
+(19,'Calculator','Stationery',600),
+(20,'Desk Lamp','Furniture',1500);
+
+INSERT INTO products
+VALUES
+(21,'Laptop','Electronics',55000),
+(22,'Mouse','Electronics',650),
+(23,'Keyboard','Electronics',1800),
+(24,'Monitor','Electronics',14000),
+(25,'Headphones','Electronics',3000),
+(26,'Smartphone','Electronics',35000),
+(27,'Tablet','Electronics',22000),
+(28,'Printer','Electronics',9000),
+(29,'Webcam','Electronics',2000),
+(30,'Speaker','Electronics',4000),
+(31,'Office Chair','Furniture',7500),
+(32,'Study Table','Furniture',10000),
+(33,'Bookshelf','Furniture',6500),
+(34,'Desk Lamp','Furniture',1800),
+(35,'Pen Drive','Accessories',800),
+(36,'External HDD','Accessories',5000),
+(37,'Backpack','Accessories',1500),
+(38,'Water Bottle','Accessories',500),
+(39,'Notebook','Stationery',120),
+(40,'Calculator','Stationery',750);
+select * from products
+
+INSERT INTO orders
+VALUES
+(101,1,1,1,'2026-06-01'),
+(102,2,2,2,'2026-06-02'),
+(103,3,3,1,'2026-06-03'),
+(104,4,4,1,'2026-06-04'),
+(105,5,5,3,'2026-06-05'),
+(106,6,6,1,'2026-06-06'),
+(107,7,7,2,'2026-06-07'),
+(108,8,8,1,'2026-06-08'),
+(109,9,9,2,'2026-06-09'),
+(110,10,10,1,'2026-06-10'),
+(111,11,11,1,'2026-06-11'),
+(112,12,12,2,'2026-06-12'),
+(113,13,13,1,'2026-06-13'),
+(114,14,14,5,'2026-06-14'),
+(115,15,15,1,'2026-06-15'),
+(116,16,16,2,'2026-06-16'),
+(117,17,17,4,'2026-06-17'),
+(118,18,18,10,'2026-06-18'),
+(119,19,19,2,'2026-06-19'),
+(120,20,20,1,'2026-06-20');
+
+INSERT INTO orders
+VALUES
+(121,1,5,2,'2026-06-21'),
+(122,2,10,1,'2026-06-22'),
+(123,3,15,3,'2026-06-23'),
+(124,4,20,2,'2026-06-24'),
+(125,5,25,1,'2026-06-25'),
+(126,6,30,2,'2026-06-26'),
+(127,7,35,4,'2026-06-27'),
+(128,8,40,5,'2026-06-28'),
+(129,9,1,1,'2026-06-29'),
+(130,10,6,2,'2026-06-30'),
+(131,1,11,1,'2026-07-01'),
+(132,2,16,3,'2026-07-02'),
+(133,3,21,1,'2026-07-03'),
+(134,4,26,2,'2026-07-04'),
+(135,5,31,1,'2026-07-05'),
+(136,6,36,2,'2026-07-06'),
+(137,7,2,6,'2026-07-07'),
+(138,8,7,1,'2026-07-08'),
+(139,9,12,2,'2026-07-09'),
+(140,10,17,4,'2026-07-10');
+select * from orders
+
+
+select * from customers
+select * from products
+select * from orders
