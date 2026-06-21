@@ -3,12 +3,12 @@ select city,
 count(*) as total_count
 from customers
 group by city;
-
+    
 --(22)Count products in each category
 select category,
 count(*) as total_product
 from products
-group by category;
+group by category; 
 
 --(23)Total quantity sold for each product
 select p.product_name,
