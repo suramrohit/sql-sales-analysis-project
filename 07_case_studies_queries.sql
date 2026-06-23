@@ -1,12 +1,12 @@
 --(43)Top 5 Customers by Revenue
 select top 5
-       c.customers_name, 
-      sum(o.quantity*p.price) as revenue
-from customers c 
+c.customers_name,
+sum(o.quantity*p.price) as revenue
+from customers c
 join orders o
-on c.customer_id=o.customer_id 
-join products p 
-on o.product_id= p.product_id
+on c.customer_id=o.customer_id
+join products p
+on o.product_id=p.product_id   
 group by c.customers_name
 order by revenue desc;
 
