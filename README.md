@@ -18,6 +18,31 @@ The project demonstrates SQL skills ranging from fundamental concepts to advance
 
 The project is built using three relational tables:
 
+```text
+Customers
+├── customer_id (PK)
+├── customer_name
+└── city
+
+Orders
+├── order_id (PK)
+├── customer_id (FK)
+├── product_id (FK)
+├── quantity
+└── order_date
+
+Products
+├── product_id (PK)
+├── product_name
+├── category
+└── price
+```
+
+### Relationships
+
+```text
+Customers (1) ─────< Orders >───── (1) Products
+```
 ### Customers
 
 Contains customer information and identifiers.
@@ -100,15 +125,22 @@ Contains order transactions, quantities purchased, and customer-product relation
 ## Screenshots
 
 Screenshots demonstrating query execution and results are available in the 'screenshots' folder.
-###[Top 5 Customers by Revenue]
-(screenshots/07.case_study 1.png)
 
-###[Products Never Sold]
-(screenshots/07.case_study 1.png)
+## Sample Outputs
 
-###[Category with highest sales]
-(screenshots/05.cte.png)
+### Top 5 Customers by Revenue
 
+![Top Customers](screenshots/07.case_study%201.png)
+
+### Products Never Sold
+
+![Products Never Sold](screenshots/products_never_sold.png)
+
+### Category with Highest Sales
+
+![Category Sales](screenshots/05.cte.png)
+
+---
 ## Learning Outcomes
 
 Through this project, I gained hands-on experience in:
